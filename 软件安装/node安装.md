@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # 安装node.js
 
 window+r 不是以管理员身份运行cmd
@@ -25,19 +29,35 @@ window+r 运行cmd
 
 ![1530168425952](https://raw.githubusercontent.com/hechaofan/imgMarkdown/master/1530168425952.png)
 
+
+
+
+
 # 以管理员身份运行cmd
 
 搜索cmd 右键以管理员身份运行cmd
 
 ![1530168738242](https://raw.githubusercontent.com/hechaofan/imgMarkdown/master/1530168738242.png)
 
+
+
+
+
+
+
 # cmd运行项目
+
+
 
 ## 1找到项目地址
 
 ![1530168867417](https://raw.githubusercontent.com/hechaofan/imgMarkdown/master/1530168867417.png)
 
+
+
 ##2点击复制地址
+
+
 
 ##3进入地址运行项目
 

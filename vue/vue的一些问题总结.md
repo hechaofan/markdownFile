@@ -31,3 +31,8 @@ export default new Router({
 })
 ```
 
+
+
+## vue关闭eslint 编码规范验证
+
+![](https://raw.githubusercontent.com/hechaofan/imgMarkdown/master/2018-07-04_161928.png)

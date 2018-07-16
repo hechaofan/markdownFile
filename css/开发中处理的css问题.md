@@ -87,7 +87,7 @@ padding: 8px 10px 8px 40px;/*设置input内边距*/
  设置placeholder提示字体的大小和颜色还有边距
 
 ```javascript
-placeholder="筛选日志发布时间"javas
+placeholder="筛选日志发布时间"
 ```
 
 ```javascript

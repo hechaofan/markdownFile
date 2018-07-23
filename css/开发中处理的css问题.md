@@ -95,3 +95,11 @@ text-indent 32px //更改input中文字到左边距离
 background-color #eff0f4 //input 背景色
 ```
 
+
+
+## 4.变手指
+
+```
+cursor: pointer;
+```
+

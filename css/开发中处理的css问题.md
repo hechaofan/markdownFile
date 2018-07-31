@@ -103,3 +103,26 @@ background-color #eff0f4 //input 背景色
 cursor: pointer;
 ```
 
+
+
+## 5.文字
+
+```javascript
+//强制不换行
+white-space:nowrap; 
+
+//自动换行
+div{ 
+word-wrap: break-word; 
+word-break: normal; 
+}
+```
+
+
+
+## 6.转字符
+
+```javascript
+&emsp; //空格
+```
+

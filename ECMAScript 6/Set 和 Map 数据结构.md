@@ -182,7 +182,7 @@ values()：返回键值的遍历器。<br />
 entries()：返回所有成员的遍历器。<br />
 forEach()：遍历 Map 的所有成员。<br />
 #####Map 结构转为数组结构，比较快速的方法是使用扩展运算符（...）。
-	
+
 	const map = new Map([
 	  [1, 'one'],
 	  [2, 'two'],

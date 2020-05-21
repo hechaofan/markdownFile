@@ -264,3 +264,48 @@ Page({
 })
 ```
 
+
+
+
+
+## 微信小程序中获取高度及设备的方法
+
+https://www.cnblogs.com/xiaoyaoxingchen/p/8819880.html
+
+由于js中可以采用操纵dom的方法来获取页面元素的高度，可是在微信小程序中不能操纵dom，经过查找之后发现仅仅只有以下几个方法可以获取到高度
+
+```
+wx.getSystemInfoSync().windowWidth   // 获取当前窗口的宽度
+wx.getSystemInfoSync().windowHeight    // 获取当前窗口的高度
+wx.getSystemInfoSync().model    // 获取当前采用的设备
+wx.getSystemInfoSync().pixelRatio   
+wx.getSystemInfoSync().language   // 获取当前所采用的的语言
+wx.getSystemInfoSync().version    // 获取当前设备的版本
+```
+
+ 
+
+获取view等组件的高度等信息（获取节点信息）
+
+```
+//创建节点选择器
+  var query = wx.createSelectorQuery();
+    query.select('.list').boundingClientRect()；
+    query.selectViewport().scrollOffset()；
+    query.exec((res) => {
+      var listHeight = res[0].height; // 获取list高度
+  })；
+```
+
+res内容：
+
+![img](https://img2018.cnblogs.com/blog/1281517/201812/1281517-20181207103416777-1197191420.png)
+
+**tips:**
+
+　　1、res[0]为当前节点的详细数据`；`
+
+　　2、res[1]为`显示区域的竖直滚动位置；`
+
+　　3、query.exec((res) => {})中的回调函数是最后执行的，若要获取高度等信息进行操作的话，要在回调函数中进行。
+

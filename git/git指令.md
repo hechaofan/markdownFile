@@ -98,3 +98,8 @@ git remote -v查看远程库的详细信息
 
 git push origin master：git会把master分支推送到远程库对应的分支上
 
+
+
+# 三年 Git 使用心得 & 常见问题整理
+
+ https://mp.weixin.qq.com/s?__biz=MzIzNTU2ODM4Mw==&mid=2247492078&idx=2&sn=fb2885b7f75500eaee73c47aafe0448b&chksm=e8e78c7edf90056842a4193f0944e503605a476fe5e604733a5072b33256f280dff60a827138&scene=126&sessionid=1592529223&key=5cb5aa6ea207af94d330f73ed6ffe2c6cb0a36d3345fa9614ec618cc27e2ed7fcbf7994738372685f6343d0298e7f696a531221b9a5653fa870237376874ec34eb21663875ca76751d99c6d2fc9cbc8d&ascene=1&uin=MjAwMDUwNzMyMQ%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=A1nS1fOERlnaltv6TzSazpM%3D&pass_ticket=W6wIdF6GwQkEC%2BdNH%2BfZ2EXxYlMkUKq53qjS6aJr5xDrU5lfYhXjgmeK4mtvtpha 

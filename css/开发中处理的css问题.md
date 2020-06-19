@@ -116,6 +116,25 @@ div{
 word-wrap: break-word; 
 word-break: normal; 
 }
+
+
+//单排省略号
+.overHide {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*双排胜率*/
+.overHide2{
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 ```
 
 
@@ -124,5 +143,39 @@ word-break: normal;
 
 ```javascript
 &emsp; //空格
+```
+
+
+
+## 图片宽高相等
+
+```
+.goodPic-wrap{
+          position:relative;
+          width: 100%;
+          height: 0;
+          padding-top: 100%;
+          .goodPic-img{
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background: #efefef;
+          }
+```
+
+
+
+## 文字超过宽度100%
+
+```
+.white-full-space{
+  white-space: pre-wrap;      /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap;     /* Opera <7 */
+  white-space: -o-pre-wrap;   /* Opera 7 */
+  word-wrap: break-word;      /* IE */
+}
 ```
 
